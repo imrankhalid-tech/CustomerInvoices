@@ -13,7 +13,8 @@ namespace project11.Controllers
         IEnumerable<Invoice> lstInv = Invoice.GetInvoice();
         public ActionResult Index()
         {
-            return View(lstCust);
+            List<Customer> lstCust2 = Customer.GetCustomer();
+            return View(lstCust2);
         }
         public ActionResult createCustomer(int id=0)
         {
@@ -34,12 +35,14 @@ namespace project11.Controllers
             if (customer.customerId==0)
             {
                 Customer.addCustomer(customer);
-                return View("createCustomer");
+                List<Customer> lstCust2 = Customer.GetCustomer();
+                return View("index",lstCust2);
             }
             else
             {
                 Customer.updateCustomer(customer);
-                return View("index",lstCust);
+                List<Customer> lstCust2 = Customer.GetCustomer();
+                return View("index",lstCust2);
             }
         }
         public ActionResult viewInvoices(int id=0)
@@ -50,7 +53,8 @@ namespace project11.Controllers
         public ActionResult DeleteCustomer(int id=0)
         {
             Customer.deleteCustomer(id);
-            return View("index",lstCust);
+            List<Customer> lstCust2 = Customer.GetCustomer();
+            return View("index",lstCust2);
         }
         public ActionResult About()
         {

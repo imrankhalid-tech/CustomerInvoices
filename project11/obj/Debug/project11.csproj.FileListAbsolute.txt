@@ -54,6 +54,7 @@ C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\Antlr3.Runtime.dll
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\Newtonsoft.Json.dll
+C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\System.Data.SQLite.dll
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\System.Web.Helpers.dll
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\System.Web.Mvc.dll
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\System.Web.Optimization.dll
@@ -72,7 +73,6 @@ C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\System.Web.WebPages
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\Newtonsoft.Json.xml
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\Antlr3.Runtime.pdb
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\obj\Debug\project11.csprojAssemblyReference.cache
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\obj\Debug\project11.csproj.CoreCompileInputs.cache
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\obj\Debug\project11.csproj.CopyComplete
 C:\Users\MUHAMMAD IMRAN\source\repos\project11\project11\obj\Debug\project11.dll
